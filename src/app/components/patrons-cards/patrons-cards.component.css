@@ -1,0 +1,30 @@
+:host { 
+  display: contents; 
+}
+.patrons-cards-patrons-cards {
+  gap: 20px;
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 40px;
+  flex-direction: row;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+@media(max-width: 1200px) {
+  .patrons-cards-patrons-cards {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .patrons-cards-patrons-cards {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .patrons-cards-patrons-cards {
+    flex-direction: column;
+  }
+}

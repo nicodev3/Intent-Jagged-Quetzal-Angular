@@ -22,6 +22,6 @@ export class MenuContainer {
   text3: string = 'Affilier son agence'
   @Input()
   text1: string = 'Le Réseau CENTURY 21\n'
-  rawwwrt: string = ' '
+  rawda9g: string = ' '
   constructor() {}
 }

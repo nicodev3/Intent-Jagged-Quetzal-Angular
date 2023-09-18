@@ -12,6 +12,7 @@ import { Numbers } from './numbers/numbers.component'
 import { MenuContainer } from './menu-container/menu-container.component'
 import { VideoCard } from './video-card/video-card.component'
 import { CardRowImgRight } from './card-row-img-right/card-row-img-right.component'
+import { PatronsCards } from './patrons-cards/patrons-cards.component'
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CardRowImgRight } from './card-row-img-right/card-row-img-right.compone
     MenuContainer,
     VideoCard,
     CardRowImgRight,
+    PatronsCards,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -38,6 +40,7 @@ import { CardRowImgRight } from './card-row-img-right/card-row-img-right.compone
     MenuContainer,
     VideoCard,
     CardRowImgRight,
+    PatronsCards,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
