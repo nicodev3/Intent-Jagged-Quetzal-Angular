@@ -13,6 +13,7 @@
 .card-row-img-right-container1 {
   gap: var(--dl-space-space-oneandhalfunits);
   flex: 0 0 auto;
+  order: 1;
   width: 50%;
   height: 100%;
   display: flex;
@@ -53,6 +54,7 @@
 }
 .card-row-img-right-image {
   flex: 0 0 auto;
+  order: 2;
   width: 50%;
   height: 100%;
   display: flex;
@@ -100,9 +102,11 @@
     flex-direction: column;
   }
   .card-row-img-right-container1 {
+    order: 2;
     width: 100%;
   }
   .card-row-img-right-image {
+    order: 1;
     width: 100%;
   }
   .card-row-img-right-root-class-name1 {

@@ -7,7 +7,7 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['reprendre-agence.component.css'],
 })
 export class ReprendreAgence {
-  rawd78k: string = ' '
+  rawxg3x: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('reprendre-agence - Intent Jagged Quetzal')
     this.meta.addTags([

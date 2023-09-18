@@ -43,7 +43,7 @@ export class Form {
   @Input()
   text_legal: string =
     "Century 21 France collecte des données à caractère personnel pour traiter votre demande. Les données pourront être transmises aux franchisés du réseau CENTURY 21. Les données mentionnées d'un * sont obligatoires. Vous disposez d'un droit d'accès, de rectification, de portabilité et d'effacement des données vous concernant. Vous pouvez également demander la limitation ou vous opposer au traitement. Ces droits peuvent être exercés à l'adresse dpo@century21france.com. Pour plus d'informations sur le traitement de vos données à caractère personnel, vous pouvez consulter notre politique de gestion des données personnelles en cliquant ici. Si vous ne souhaitez pas faire l’objet de prospection commerciale par voie téléphonique, vous pouvez vous inscrire gratuitement sur la liste d’opposition au démarchage téléphonique accessible sur le site internet https://www.bloctel.gouv.fr/"
-  rawbmj2: string = ' '
-  rawpeih: string = ' '
+  rawe1a4: string = ' '
+  rawag1c: string = ' '
   constructor() {}
 }

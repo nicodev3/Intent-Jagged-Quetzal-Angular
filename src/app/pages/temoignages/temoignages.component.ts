@@ -7,10 +7,10 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['temoignages.component.css'],
 })
 export class Temoignages {
-  raw1xrb: string = ' '
-  rawha1j: string = ' '
-  raw7pj1: string = ' '
-  rawvbjq: string = ' '
+  rawjzve: string = ' '
+  rawb15x: string = ' '
+  raw8n08: string = ' '
+  rawjth1: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('temoignages - Intent Jagged Quetzal')
     this.meta.addTags([
