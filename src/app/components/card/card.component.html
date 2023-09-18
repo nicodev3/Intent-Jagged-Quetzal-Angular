@@ -1,0 +1,9 @@
+<div class="card-container" [ngClass]="rootClassName">
+  <img [attr.alt]="image_alt" [attr.src]="image_src" class="card-image" />
+  <div class="card-container1 relative">
+    <span class="card-text">{{ text }}</span>
+    <span class="card-text1 absolute left-2">{{ quotes }}</span>
+  </div>
+  <span class="card-text2">{{ nom }}</span>
+  <span class="card-text3">{{ fonction }}</span>
+</div>

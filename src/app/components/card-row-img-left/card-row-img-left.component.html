@@ -1,0 +1,24 @@
+<div
+  class="card-row-img-left-thumbnail-row-component-img-left"
+  [ngClass]="rootClassName"
+>
+  <div class="card-row-img-left-image">
+    <img
+      [attr.alt]="imageAlt"
+      [attr.src]="imagePath"
+      class="card-row-img-left-image1 object-cover"
+    />
+  </div>
+  <div class="card-row-img-left-container">
+    <h2 class="card-row-img-left-text">{{ heading }}</h2>
+    <span class="card-row-img-left-text1">{{ mainText }}</span>
+    <a
+      [attr.href]="linkUrl"
+      target="_blank"
+      rel="noreferrer noopener"
+      class="card-row-img-left-link"
+    >
+      {{ linkLabel }}
+    </a>
+  </div>
+</div>

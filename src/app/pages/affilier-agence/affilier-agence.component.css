@@ -1,0 +1,532 @@
+:host { 
+  display: contents; 
+}
+.affilier-agence-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.affilier-agence-navbar-interactive {
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.affilier-agence-text {
+  color: rgb(190, 175, 135);
+  font-size: 18px;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+}
+.affilier-agence-text03 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.affilier-agence-container1 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+}
+.affilier-agence-navlink {
+  color: #252526;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.affilier-agence-navlink1 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.affilier-agence-navlink2 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.affilier-agence-navlink3 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.affilier-agence-desktop-menu {
+  flex: 1;
+  display: none;
+  justify-content: space-between;
+}
+.affilier-agence-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.affilier-agence-text07 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.affilier-agence-text08 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.affilier-agence-text09 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.affilier-agence-text10 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.affilier-agence-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.affilier-agence-login {
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.affilier-agence-burger-menu {
+  display: flex;
+}
+.affilier-agence-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.affilier-agence-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(37, 37, 38, 0.83);
+}
+.affilier-agence-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.affilier-agence-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-end;
+}
+.affilier-agence-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.affilier-agence-icon02 {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.affilier-agence-links1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.affilier-agence-container2 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.affilier-agence-text11 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.affilier-agence-text12 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.affilier-agence-text13 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.affilier-agence-text14 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.affilier-agence-container3 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.affilier-agence-text15 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.affilier-agence-text16 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.affilier-agence-text17 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.affilier-agence-text18 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.affilier-agence-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.affilier-agence-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.affilier-agence-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.affilier-agence-container4 {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+.affilier-agence-video {
+  width: 320px;
+  height: 180px;
+}
+.affilier-agence-container5 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-gray-black);
+}
+.affilier-agence-text19 {
+  color: var(--dl-color-gray-white);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.affilier-agence-text22 {
+  color: rgb(37, 37, 38);
+  font-size: 60px;
+  font-weight: 900;
+}
+.affilier-agence-text23 {
+  color: var(--dl-color-accent-green);
+  font-size: 80px;
+  font-weight: 800;
+}
+.affilier-agence-text25 {
+  color: var(--dl-color-gray-white);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.affilier-agence-video-testimonial-thumbnails {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.affilier-agence-text26 {
+  text-transform: uppercase;
+}
+.affilier-agence-text27 {
+  color: #beaf87;
+  font-size: 38px;
+}
+.affilier-agence-text29 {
+  font-size: 18px;
+}
+.affilier-agence-container6 {
+  gap: 20px;
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.affilier-agence-secteur-creer-agence {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  background-color: var(--dl-color-accent-green);
+}
+.affilier-agence-container7 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  color: #fff;
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.affilier-agence-text30 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+}
+.affilier-agence-select {
+  color: #fff;
+  width: 100%;
+  height: var(--dl-size-size-small);
+  border-color: #ffffff;
+  border-width: 2px;
+  background-color: var(--dl-color-accent-green);
+}
+.affilier-agence-partenariat {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.affilier-agence-text31 {
+  color: rgb(190, 175, 135);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.affilier-agence-text34 {
+  font-size: 18px;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.affilier-agence-container8 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.affilier-agence-image {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+.affilier-agence-image1 {
+  width: 239px;
+  object-fit: cover;
+}
+.affilier-agence-image2 {
+  width: 225px;
+  object-fit: cover;
+}
+.affilier-agence-image3 {
+  width: 180px;
+  object-fit: cover;
+}
+@media(max-width: 1920px) {
+  .affilier-agence-desktop-menu {
+    display: none;
+  }
+  .affilier-agence-burger-menu {
+    display: flex;
+  }
+}
+@media(max-width: 1200px) {
+  .affilier-agence-container4 {
+    width: 100%;
+  }
+  .affilier-agence-video-testimonial-thumbnails {
+    width: 100%;
+  }
+  .affilier-agence-container6 {
+    width: 100%;
+  }
+  .affilier-agence-container7 {
+    width: 100%;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .affilier-agence-partenariat {
+    width: 100%;
+  }
+}
+@media(max-width: 991px) {
+  .affilier-agence-container4 {
+    width: 100%;
+  }
+  .affilier-agence-video-testimonial-thumbnails {
+    width: 100%;
+  }
+  .affilier-agence-container6 {
+    width: 100%;
+  }
+  .affilier-agence-partenariat {
+    width: 100%;
+  }
+  .affilier-agence-container8 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .affilier-agence-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .affilier-agence-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .affilier-agence-text11 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .affilier-agence-text12 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .affilier-agence-text13 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .affilier-agence-text14 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .affilier-agence-text15 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .affilier-agence-text16 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .affilier-agence-text17 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .affilier-agence-text18 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .affilier-agence-container4 {
+    width: 100%;
+  }
+  .affilier-agence-text26 {
+    text-align: center;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .affilier-agence-container6 {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .affilier-agence-navbar-interactive {
+    width: 100%;
+    padding: var(--dl-space-space-unit);
+  }
+  .affilier-agence-navlink {
+    display: none;
+  }
+  .affilier-agence-navlink1 {
+    display: none;
+  }
+  .affilier-agence-navlink2 {
+    display: none;
+  }
+  .affilier-agence-navlink3 {
+    display: none;
+  }
+  .affilier-agence-mobile-menu {
+    padding: 16px;
+  }
+  .affilier-agence-container4 {
+    width: 100%;
+  }
+  .affilier-agence-text26 {
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .affilier-agence-text29 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .affilier-agence-container7 {
+    width: 100%;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .affilier-agence-text30 {
+    text-align: center;
+  }
+  .affilier-agence-text31 {
+    text-align: center;
+  }
+  .affilier-agence-text34 {
+    text-align: center;
+  }
+  .affilier-agence-container8 {
+    align-items: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,473 @@
+:host { 
+  display: contents; 
+}
+.creer-agence-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.creer-agence-navbar-interactive {
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.creer-agence-text {
+  color: rgb(190, 175, 135);
+  font-size: 18px;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+}
+.creer-agence-text03 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.creer-agence-container1 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+}
+.creer-agence-navlink {
+  color: #252526;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.creer-agence-navlink1 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.creer-agence-navlink2 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.creer-agence-navlink3 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.creer-agence-desktop-menu {
+  flex: 1;
+  display: none;
+  justify-content: space-between;
+}
+.creer-agence-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.creer-agence-text07 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.creer-agence-text08 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.creer-agence-text09 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.creer-agence-text10 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.creer-agence-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.creer-agence-login {
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.creer-agence-burger-menu {
+  display: flex;
+}
+.creer-agence-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.creer-agence-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(37, 37, 38, 0.83);
+}
+.creer-agence-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.creer-agence-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-end;
+}
+.creer-agence-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.creer-agence-icon02 {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.creer-agence-links1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.creer-agence-container2 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.creer-agence-text11 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.creer-agence-text12 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.creer-agence-text13 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.creer-agence-text14 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.creer-agence-container3 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.creer-agence-text15 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.creer-agence-text16 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.creer-agence-text17 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.creer-agence-text18 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.creer-agence-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.creer-agence-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.creer-agence-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.creer-agence-video-testimonial-thumbnails {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.creer-agence-text19 {
+  text-transform: uppercase;
+}
+.creer-agence-text20 {
+  color: #beaf87;
+  font-size: 38px;
+}
+.creer-agence-text22 {
+  font-size: 18px;
+}
+.creer-agence-container4 {
+  gap: 20px;
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.creer-agence-secteur-creer-agence {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  background-color: var(--dl-color-accent-pink);
+}
+.creer-agence-container5 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  color: #fff;
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.creer-agence-text23 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+}
+.creer-agence-select {
+  color: #fff;
+  width: 100%;
+  height: var(--dl-size-size-small);
+  border-color: #ffffff;
+  border-width: 2px;
+  background-color: var(--dl-color-accent-pink);
+}
+.creer-agence-partenariat {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.creer-agence-text24 {
+  color: rgb(190, 175, 135);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.creer-agence-text27 {
+  font-size: 18px;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.creer-agence-container6 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.creer-agence-image {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+.creer-agence-image1 {
+  width: 239px;
+  object-fit: cover;
+}
+.creer-agence-image2 {
+  width: 268px;
+  object-fit: cover;
+}
+.creer-agence-image3 {
+  width: 180px;
+  object-fit: cover;
+}
+@media(max-width: 1920px) {
+  .creer-agence-desktop-menu {
+    display: none;
+  }
+  .creer-agence-burger-menu {
+    display: flex;
+  }
+}
+@media(max-width: 1200px) {
+  .creer-agence-video-testimonial-thumbnails {
+    width: 100%;
+  }
+  .creer-agence-container4 {
+    width: 100%;
+  }
+  .creer-agence-container5 {
+    width: 100%;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creer-agence-partenariat {
+    width: 100%;
+  }
+}
+@media(max-width: 991px) {
+  .creer-agence-video-testimonial-thumbnails {
+    width: 100%;
+  }
+  .creer-agence-container4 {
+    width: 100%;
+  }
+  .creer-agence-partenariat {
+    width: 100%;
+  }
+  .creer-agence-container6 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .creer-agence-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .creer-agence-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .creer-agence-text11 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .creer-agence-text12 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .creer-agence-text13 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .creer-agence-text14 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .creer-agence-text15 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .creer-agence-text16 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .creer-agence-text17 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .creer-agence-text18 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .creer-agence-text19 {
+    text-align: center;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .creer-agence-container4 {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .creer-agence-navbar-interactive {
+    width: 100%;
+    padding: var(--dl-space-space-unit);
+  }
+  .creer-agence-navlink {
+    display: none;
+  }
+  .creer-agence-navlink1 {
+    display: none;
+  }
+  .creer-agence-navlink2 {
+    display: none;
+  }
+  .creer-agence-navlink3 {
+    display: none;
+  }
+  .creer-agence-mobile-menu {
+    padding: 16px;
+  }
+  .creer-agence-text19 {
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .creer-agence-text22 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creer-agence-container5 {
+    width: 100%;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creer-agence-text23 {
+    text-align: center;
+  }
+  .creer-agence-text24 {
+    text-align: center;
+  }
+  .creer-agence-text27 {
+    text-align: center;
+  }
+  .creer-agence-container6 {
+    align-items: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,19 @@
+<div class="video-card-container" [ngClass]="rootClassName">
+  <a routerLink="/" class="video-card-navlink">
+    <div class="video-card-container1">
+      <img
+        [attr.alt]="image_alt"
+        [attr.src]="image_src"
+        class="video-card-image"
+      />
+    </div>
+  </a>
+  <div class="video-card-container2">
+    <div class="video-card-container3">
+      <span class="video-card-text">{{ text }}</span>
+      <span class="video-card-text1">{{ guillemets }}</span>
+    </div>
+    <span class="video-card-text2">{{ text1 }}</span>
+    <span class="video-card-text3">{{ text2 }}</span>
+  </div>
+</div>

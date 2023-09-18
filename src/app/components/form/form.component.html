@@ -1,0 +1,115 @@
+<section class="form-form-container" [ngClass]="rootClassName">
+  <div class="form-form-container-inner">
+    <div class="form-left">
+      <img [attr.alt]="image_alt" [attr.src]="image_src" class="form-image" />
+      <div class="form-container">
+        <span class="form-text">
+          <span>Vous souhaitez créer votre </span>
+          <br />
+          <span>
+            agence avec
+            <span [innerHTML]="rawxuk7"></span>
+          </span>
+          <span>
+            le Réseau
+            <span [innerHTML]="rawcn7j"></span>
+          </span>
+          <br />
+          <span>Century 21 ?</span>
+        </span>
+        <span>
+          <span class="form-text08">
+            Postulez en prenant un rendez-vous via le formulaire
+          </span>
+          <br class="form-text09" />
+          <span class="form-text10">ou téléphonez au :</span>
+          <br />
+        </span>
+        <span class="form-text12">{{ text }}</span>
+      </div>
+    </div>
+    <form class="form-form">
+      <div class="form-form-container1">
+        <div class="form-form-field-container">
+          <div class="form-form-field">
+            <label for="prenom" class="form-text13">{{ label_prenom }}</label>
+            <input
+              type="text"
+              id="prenom"
+              required
+              [attr.placeholder]="prenom"
+              class="form-textinput input"
+            />
+          </div>
+          <div class="form-form-field1">
+            <label id="nom" for="nom" class="form-text14">
+              {{ label_nom }}
+            </label>
+            <input
+              type="text"
+              required
+              [attr.placeholder]="name"
+              class="form-textinput1 input"
+            />
+          </div>
+        </div>
+        <div class="form-form-field2">
+          <label id="email" for="email" class="form-text15">
+            {{ label_mail }}
+          </label>
+          <input
+            type="email"
+            required
+            [attr.placeholder]="email"
+            class="form-textinput2 input"
+          />
+        </div>
+        <div class="form-form-field3">
+          <label id="phone" for="phone" class="form-text16">
+            {{ label_phone }}
+          </label>
+          <input
+            type="tel"
+            required
+            [attr.placeholder]="phone"
+            class="form-textinput3 input"
+          />
+        </div>
+        <div class="form-form-field4">
+          <label id="adress" for="adress" class="form-text17">
+            {{ label_adresse }}
+          </label>
+          <input
+            type="text"
+            required
+            [attr.placeholder]="adress"
+            class="form-textinput4 input"
+          />
+        </div>
+        <div class="form-form-field5">
+          <label id="jobInterrest" for="jobInterrest" class="form-text18">
+            {{ label_options }}
+          </label>
+          <select class="form-select">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+          </select>
+        </div>
+      </div>
+      <p class="form-text19">
+        <span class="form-text20">
+          Les champs suivis d’un * sont obligatoires.
+        </span>
+        <br />
+      </p>
+      <div class="form-container1">
+        <input type="checkbox" id="optin" class="form-checkbox" />
+        <p class="form-text22">{{ text_legal }}</p>
+        <button type="button" class="form-button button cursor-pointer">
+          {{ button }}
+        </button>
+      </div>
+    </form>
+  </div>
+</section>

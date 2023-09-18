@@ -1,0 +1,35 @@
+<nav class="menu-container-menu-container" [ngClass]="rootClassName">
+  <div class="menu-container-container">
+    <a routerLink="/" class="menu-container-navlink">
+      <div class="menu-container-container1">
+        <span class="menu-container-text">
+          <span>
+            CENTURY 21
+            <span [innerHTML]="rawwwrt"></span>
+          </span>
+          <br />
+        </span>
+        <span class="menu-container-text3">{{ text }}</span>
+      </div>
+    </a>
+    <div class="menu-container-container2">
+      <a routerLink="/creer-agence" class="menu-container-navlink1">
+        {{ text2 }}
+      </a>
+      <a routerLink="/affilier-agence" class="menu-container-navlink2">
+        {{ text3 }}
+      </a>
+      <a routerLink="/reprendre-agence" class="menu-container-navlink3">
+        {{ text4 }}
+      </a>
+      <a routerLink="/temoignages" class="menu-container-navlink4">
+        {{ text5 }}
+      </a>
+      <svg viewBox="0 0 1024 1024" class="menu-container-icon">
+        <path
+          d="M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
+        ></path>
+      </svg>
+    </div>
+  </div>
+</nav>

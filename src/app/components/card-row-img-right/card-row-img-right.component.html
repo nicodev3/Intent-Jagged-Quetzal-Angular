@@ -1,0 +1,21 @@
+<div class="card-row-img-right-container" [ngClass]="rootClassName">
+  <div class="card-row-img-right-container1 order-2">
+    <h2 class="card-row-img-right-text">{{ heading }}</h2>
+    <span class="card-row-img-right-text1">{{ content }}</span>
+    <a
+      [attr.href]="link_url"
+      target="_blank"
+      rel="noreferrer noopener"
+      class="card-row-img-right-link button"
+    >
+      {{ link_label }}
+    </a>
+  </div>
+  <div class="card-row-img-right-image order-1">
+    <img
+      [attr.alt]="image_alt"
+      [attr.src]="image_src"
+      class="card-row-img-right-image1"
+    />
+  </div>
+</div>

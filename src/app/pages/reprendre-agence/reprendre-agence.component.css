@@ -1,0 +1,675 @@
+:host { 
+  display: contents; 
+}
+.reprendre-agence-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.reprendre-agence-navbar-interactive {
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.reprendre-agence-text {
+  color: rgb(190, 175, 135);
+  font-size: 18px;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+}
+.reprendre-agence-text03 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.reprendre-agence-container01 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+}
+.reprendre-agence-navlink {
+  color: #252526;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.reprendre-agence-navlink1 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.reprendre-agence-navlink2 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.reprendre-agence-navlink3 {
+  color: rgb(37, 37, 38);
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.reprendre-agence-desktop-menu {
+  flex: 1;
+  display: none;
+  justify-content: space-between;
+}
+.reprendre-agence-links {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.reprendre-agence-text07 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.reprendre-agence-text08 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.reprendre-agence-text09 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.reprendre-agence-text10 {
+  margin-left: var(--dl-space-space-twounits);
+}
+.reprendre-agence-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.reprendre-agence-login {
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+}
+.reprendre-agence-burger-menu {
+  display: flex;
+}
+.reprendre-agence-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.reprendre-agence-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(37, 37, 38, 0.83);
+}
+.reprendre-agence-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.reprendre-agence-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-end;
+}
+.reprendre-agence-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reprendre-agence-icon02 {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.reprendre-agence-links1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.reprendre-agence-container02 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.reprendre-agence-text11 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.reprendre-agence-text12 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.reprendre-agence-text13 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.reprendre-agence-text14 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.reprendre-agence-container03 {
+  flex: 0 0 auto;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.reprendre-agence-text15 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.reprendre-agence-text16 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.reprendre-agence-text17 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.reprendre-agence-text18 {
+  color: var(--dl-color-gray-white);
+  font-size: 38px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.reprendre-agence-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.reprendre-agence-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.reprendre-agence-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.reprendre-agence-container04 {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+.reprendre-agence-video {
+  width: 320px;
+  height: 180px;
+}
+.reprendre-agence-container05 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-gray-black);
+}
+.reprendre-agence-text19 {
+  color: var(--dl-color-gray-white);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.reprendre-agence-text22 {
+  color: rgb(37, 37, 38);
+  font-size: 60px;
+  font-weight: 900;
+}
+.reprendre-agence-text23 {
+  color: var(--dl-color-accent-blue);
+  font-size: 80px;
+  font-weight: 800;
+}
+.reprendre-agence-text25 {
+  color: var(--dl-color-gray-white);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.reprendre-agence-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reprendre-agence-section-image-right {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: 375px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.reprendre-agence-container07 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.reprendre-agence-text27 {
+  color: var(--dl-color-accent-blue);
+  font-size: 38px;
+}
+.reprendre-agence-text28 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  font-family: Barlow;
+}
+.reprendre-agence-link {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  border-color: #ffffff;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.reprendre-agence-link:hover {
+  background-color: var(--dl-color-gray-black);
+}
+.reprendre-agence-image {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.reprendre-agence-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reprendre-agence-section-image-left {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: 375px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.reprendre-agence-image2 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.reprendre-agence-image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reprendre-agence-container08 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 50%;
+  height: 374px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: center;
+  background-color: var(--dl-color-accent-blue);
+}
+.reprendre-agence-text29 {
+  color: var(--dl-color-gray-black);
+  font-size: 38px;
+}
+.reprendre-agence-text32 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Barlow;
+}
+.reprendre-agence-link1 {
+  color: rgb(255, 255, 255);
+  padding: var(--dl-space-space-unit);
+  font-size: 22px;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 2px;
+  text-transform: uppercase;
+}
+.reprendre-agence-link1:hover {
+  color: #252526;
+  background-color: #fff;
+}
+.reprendre-agence-section-image-right1 {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: 375px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.reprendre-agence-container09 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: center;
+  background-color: #beaf87;
+}
+.reprendre-agence-text33 {
+  color: var(--dl-color-gray-black);
+  font-size: 38px;
+}
+.reprendre-agence-text34 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  font-family: Barlow;
+}
+.reprendre-agence-link2 {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  border-color: #ffffff;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.reprendre-agence-link2:hover {
+  background-color: var(--dl-color-gray-black);
+}
+.reprendre-agence-image4 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.reprendre-agence-image5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reprendre-agence-video-testimonial-thumbnails {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.reprendre-agence-text35 {
+  text-transform: uppercase;
+}
+.reprendre-agence-text36 {
+  color: #beaf87;
+  font-size: 38px;
+}
+.reprendre-agence-text38 {
+  font-size: 18px;
+}
+.reprendre-agence-container10 {
+  gap: 20px;
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+@media(max-width: 1920px) {
+  .reprendre-agence-desktop-menu {
+    display: none;
+  }
+  .reprendre-agence-burger-menu {
+    display: flex;
+  }
+}
+@media(max-width: 1200px) {
+  .reprendre-agence-section-image-right {
+    width: 100%;
+  }
+  .reprendre-agence-section-image-left {
+    width: 100%;
+  }
+  .reprendre-agence-image3 {
+    height: 100%;
+  }
+  .reprendre-agence-section-image-right1 {
+    width: 100%;
+  }
+  .reprendre-agence-video-testimonial-thumbnails {
+    width: 100%;
+  }
+  .reprendre-agence-container10 {
+    width: 100%;
+  }
+}
+@media(max-width: 991px) {
+  .reprendre-agence-container04 {
+    width: 100%;
+  }
+  .reprendre-agence-image3 {
+    height: 100%;
+  }
+  .reprendre-agence-video-testimonial-thumbnails {
+    width: 100%;
+  }
+  .reprendre-agence-container10 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .reprendre-agence-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .reprendre-agence-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .reprendre-agence-text11 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reprendre-agence-text12 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reprendre-agence-text13 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reprendre-agence-text14 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reprendre-agence-text15 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reprendre-agence-text16 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reprendre-agence-text17 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reprendre-agence-text18 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .reprendre-agence-container04 {
+    width: 100%;
+  }
+  .reprendre-agence-container07 {
+    padding-right: var(--dl-space-space-fourunits);
+  }
+  .reprendre-agence-text27 {
+    font-size: 30px;
+  }
+  .reprendre-agence-container08 {
+    padding-right: var(--dl-space-space-fourunits);
+  }
+  .reprendre-agence-text29 {
+    font-size: 30px;
+  }
+  .reprendre-agence-container09 {
+    padding-right: var(--dl-space-space-fourunits);
+  }
+  .reprendre-agence-text33 {
+    font-size: 30px;
+  }
+  .reprendre-agence-text35 {
+    text-align: center;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .reprendre-agence-container10 {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .reprendre-agence-navbar-interactive {
+    width: 100%;
+    padding: var(--dl-space-space-unit);
+  }
+  .reprendre-agence-navlink {
+    display: none;
+  }
+  .reprendre-agence-navlink1 {
+    display: none;
+  }
+  .reprendre-agence-navlink2 {
+    display: none;
+  }
+  .reprendre-agence-navlink3 {
+    display: none;
+  }
+  .reprendre-agence-mobile-menu {
+    padding: 16px;
+  }
+  .reprendre-agence-section-image-right {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .reprendre-agence-container07 {
+    width: 100%;
+  }
+  .reprendre-agence-image {
+    width: 100%;
+  }
+  .reprendre-agence-section-image-left {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .reprendre-agence-image2 {
+    width: 100%;
+  }
+  .reprendre-agence-container08 {
+    width: 100%;
+  }
+  .reprendre-agence-section-image-right1 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .reprendre-agence-container09 {
+    width: 100%;
+  }
+  .reprendre-agence-image4 {
+    width: 100%;
+  }
+  .reprendre-agence-text35 {
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .reprendre-agence-text38 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}

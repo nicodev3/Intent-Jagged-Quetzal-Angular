@@ -1,0 +1,101 @@
+:host { 
+  display: contents; 
+}
+.menu-container-menu-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu-container-container {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-container-navlink {
+  display: contents;
+}
+.menu-container-container1 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.menu-container-text {
+  color: #beaf87;
+  font-size: 18px;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+}
+.menu-container-text3 {
+  color: #252526;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 700;
+}
+.menu-container-container2 {
+  gap: var(--dl-space-space-twounits);
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.menu-container-navlink1 {
+  color: #252526;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu-container-navlink2 {
+  color: #252526;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu-container-navlink3 {
+  color: #252526;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu-container-navlink4 {
+  color: #252526;
+  font-style: normal;
+  font-family: Barlow;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu-container-icon {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 1200px) {
+  .menu-container-container {
+    width: 100%;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 479px) {
+  .menu-container-container {
+    flex-direction: column;
+  }
+}

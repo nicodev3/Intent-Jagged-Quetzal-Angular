@@ -1,0 +1,111 @@
+:host { 
+  display: contents; 
+}
+.card-row-img-left-thumbnail-row-component-img-left {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: 375px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-row-img-left-image {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.card-row-img-left-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-row-img-left-container {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 50%;
+  height: 374px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: center;
+  background-color: #252526;
+}
+.card-row-img-left-text {
+  color: rgb(190, 175, 135);
+  font-size: 38px;
+}
+.card-row-img-left-text1 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Barlow;
+}
+.card-row-img-left-link {
+  color: #ffffff;
+  padding: var(--dl-space-space-unit);
+  font-size: 22px;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+.card-row-img-left-link:hover {
+  color: #252526;
+  background-color: #fff;
+}
+
+
+
+@media(max-width: 1200px) {
+  .card-row-img-left-thumbnail-row-component-img-left {
+    width: 100%;
+  }
+  .card-row-img-left-image1 {
+    height: 100%;
+  }
+}
+@media(max-width: 991px) {
+  .card-row-img-left-image1 {
+    height: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .card-row-img-left-thumbnail-row-component-img-left {
+    height: auto;
+    flex-direction: column;
+  }
+  .card-row-img-left-image {
+    width: 100%;
+  }
+  .card-row-img-left-container {
+    width: 100%;
+    padding-right: var(--dl-space-space-fourunits);
+  }
+  .card-row-img-left-text {
+    font-size: 30px;
+  }
+}
+@media(max-width: 479px) {
+  .card-row-img-left-thumbnail-row-component-img-left {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .card-row-img-left-image {
+    width: 100%;
+  }
+  .card-row-img-left-container {
+    width: 100%;
+  }
+  .card-row-img-left-root-class-name1 {
+    width: 100%;
+    height: auto;
+  }
+}
