@@ -7,13 +7,13 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['affilier-agence.component.css'],
 })
 export class AffilierAgence {
-  rawz99p: string = ' '
+  raw7xbv: string = ' '
   constructor(private title: Title, private meta: Meta) {
-    this.title.setTitle('affilier-agence - Intent Jagged Quetzal')
+    this.title.setTitle('affilier-agence - ng-franchise')
     this.meta.addTags([
       {
         property: 'og:title',
-        content: 'affilier-agence - Intent Jagged Quetzal',
+        content: 'affilier-agence - ng-franchise',
       },
     ])
   }

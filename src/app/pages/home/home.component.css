@@ -312,11 +312,17 @@
   }
 }
 @media(max-width: 1200px) {
+  .home-navbar-interactive {
+    width: 100%;
+  }
   .home-thumbnails-container {
     width: 100%;
   }
 }
 @media(max-width: 991px) {
+  .home-navbar-interactive {
+    width: 100%;
+  }
   .home-thumbnails-container {
     width: 100%;
     height: auto;

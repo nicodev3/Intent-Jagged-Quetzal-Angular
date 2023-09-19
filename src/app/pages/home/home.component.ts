@@ -7,13 +7,13 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['home.component.css'],
 })
 export class Home {
-  raw2doj: string = ' '
+  rawlrsa: string = ' '
   constructor(private title: Title, private meta: Meta) {
-    this.title.setTitle('Intent Jagged Quetzal')
+    this.title.setTitle('ng-franchise')
     this.meta.addTags([
       {
         property: 'og:title',
-        content: 'Intent Jagged Quetzal',
+        content: 'ng-franchise',
       },
     ])
   }

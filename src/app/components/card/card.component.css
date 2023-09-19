@@ -67,6 +67,26 @@
     width: 100%;
   }
 }
+@media(max-width: 991px) {
+  .card-container {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .card-image {
+    width: 180px;
+  }
+  .card-text1 {
+    color: rgba(190, 175, 135, 0.75);
+  }
+  .card-root-class-name {
+    width: auto;
+  }
+  .card-root-class-name1 {
+    width: auto;
+  }
+  .card-root-class-name2 {
+    width: auto;
+  }
+}
 @media(max-width: 767px) {
   .card-image {
     width: 180px;

@@ -7,13 +7,13 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['creer-agence.component.css'],
 })
 export class CreerAgence {
-  rawo5ir: string = ' '
+  rawwm6i: string = ' '
   constructor(private title: Title, private meta: Meta) {
-    this.title.setTitle('creer-agence - Intent Jagged Quetzal')
+    this.title.setTitle('creer-agence - ng-franchise')
     this.meta.addTags([
       {
         property: 'og:title',
-        content: 'creer-agence - Intent Jagged Quetzal',
+        content: 'creer-agence - ng-franchise',
       },
     ])
   }

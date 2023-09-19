@@ -70,6 +70,9 @@
 
 
 @media(max-width: 1200px) {
+  .card-row-img-right-container {
+    width: 100%;
+  }
   .card-row-img-right-root-class-name1 {
     width: 100%;
   }
